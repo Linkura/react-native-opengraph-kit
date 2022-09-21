@@ -245,7 +245,7 @@ function getUrls(contentToMatch) {
             if (url.toLowerCase().indexOf('http') === 0) {
                 urlsToReturn.push(url);
             } else {
-                urlsToReturn.push(`http://${url}`);
+                urlsToReturn.push(`https://${url}`);
             }
         });
     } else {
